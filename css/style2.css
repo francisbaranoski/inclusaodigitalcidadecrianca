@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Quicksand:wght@300;400&family=Righteous&display=swap');
+
+body{
+    font-family:'Open Sans', sans-serif;
+    background-color: white;
+    margin: 0 auto; 
+    color:black;
+    text-align: justify;
+}
+h2{
+    color:#63926f;
+}
+
+p.cent{
+    text-align: center;
+}
+
+header{
+    margin: 0 auto;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Open Sans', sans-serif;
+    margin-top: -20px;
+}
+
+span{
+    color:white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#menu-h ul{
+    list-style: none;
+    padding: 0 ;
+    background-color:#80BD8F;
+    font-size: 17px;
+    width: 100%;
+    position: fixed;
+}
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a{
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    padding:20px;
+    transition: background .5s;
+}
+
+#menu-h ul li a:hover{
+    background-color:#8ec49c;
+}
+
+main{
+    margin:0px 50px 50px 50px;
+}
+
+b{
+    color:#80BD8F;
+}
+
+img{
+    margin-bottom: -35px;
+}
+
+h2::selection{
+    background-color: rgba(166, 226, 166, 0.616);
+}
+
+b::selection{
+    background-color: rgba(166, 226, 166, 0.616);
+}
+
+li::selection{
+    background-color: rgba(166, 226, 166, 0.616);
+}
+
+p::selection{
+    background-color: rgba(166, 226, 166, 0.616);
+}
+
+img::selection{
+    background-color: rgba(166, 226, 166, 0.616);
+}
+
+a::selection{
+    background-color: rgba(166, 226, 166, 0.616);
+}
+
+dt::selection{
+    background-color: rgba(166, 226, 166, 0.616);
+}
+
+h3::selection{
+    background-color: rgba(166, 226, 166, 0.616);
+}
+
+dd::selection{
+    background-color: rgba(166, 226, 166, 0.616);
+}
+
+footer{
+    color:darkgray;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+h3{
+    color:#80BD8F;
+}
+
+a{
+    color:#63926f;
+}
+
+a:hover{
+    background-color:#80BD8F;
+    color:white;
+}
